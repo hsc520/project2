@@ -1,0 +1,88 @@
+ .content>.container>.left{float: left;}
+.content>.container>.left>.title{ width:200px; height: 90px;background-color: #01a1ff;color: white;text-align: center;margin-top: 30px;}
+.content>.container>.left>.title>h3{font-size: 18px;padding-top: 18px;font-weight: normal;}
+.content>.container>.left>.title>span{display: inline-block;width: 99px;height: 1px; background-color: white;margin-top: 10px;position: relative;bottom: 10px;}
+.content>.container>.left>.title>h4{position: relative;bottom: 10px;font-weight: normal;}
+.content>.container>.left>.left_con{width: 198px;height: 170px;border: 1px solid #01a1ff; text-align: center;color: white;}
+.content>.container>.left>.left_con>.info{background-color:#01a1ff;border-radius: 10%;width: 170px;height: 115px;margin:30px auto; }
+.content>.container>.left>.left_con>.info>h3{font-size: 16px;}
+.content>.container>.left>.left_con>.info>h3:first-child{padding-top: 10px;}
+.content>.container>.left>.left_con>.info>h3:last-child{padding-top: 10px;font-weight: normal;}
+.content>.container>.left>.botton>.service{width: 198px;height: 90px; background-color:#01a1ff;color: white; margin-top: 20px;text-align: center;padding-top: 20px;}
+.content>.container>.left>.botton>.service>h3{font-weight: normal;}
+.content>.container>.left>.botton>.service>span{display: inline-block;width: 99px;height: 1px;background-color: white;position: relative;bottom: 10px;}
+.content>.container>.left>.botton>.service>h4{position: relative;bottom: 10px;font-weight: normal;}
+.content>.container>.left>.botton>.myform{width: 196px;height: 100px;border: 1px solid #01a1ff;text-align: center;position: relative;}
+.content>.container>.left>.botton>.myform>form>textarea{font-size: 14px; resize: none;margin-top: 20px; width: 170px;height: 60px;padding-left: 3px;  margin-top: 20px; margin-left: 6px; background: url("../images/small_icon_03.jpg") no-repeat;background-position: bottom right;border:1px solid #01a1ff;padding-left: 5px;padding-top: 5px;}
+.myform>form>button{cursor: pointer; position: absolute;background: url("../images/bottom_icon.jpg") no-repeat;width: 25px;height: 22px;top: 59px;left: 161px;border:none;}
+
+/**右边的部分**/
+.right{float: left;width: 970px;}
+.right>.title{margin-left: 20px;margin-top: 31px;width: 953px;height: 45px;border-left: 1px solid #01a1ff;border-bottom: 1px solid gray;}
+.right>.title>h3{font-size: 18px;padding-left: 10px;float: left;margin-top: 8px;}
+/**小文字的部分**/
+.right>.title>h4{display: inline-block; font-size: 12px;color: gray;float: left;margin-top: 15px;margin-left: 5px;}
+
+/**右上角小文字部分**/
+.right>.title>.location{float: right; margin-top: 12px;}
+.right>.title>.location>span{font-size: 12px;color: #aeaeae;}
+.right>.title>.location>span:hover{color: #b2d153;}
+.right>.title>.location>.on{color: #b2d153;}
+/**右上角小文字部分end**/
+
+
+/**地图部分**/
+.map{margin-left: 65px;float: left;outline: none;border: 0px;}
+.map>iframe{border: none;outline: none;border: 0px;overflow:hidden;margin: 0;padding: 0;frameborder="no";border-top: 0px;border-left: 0px;}
+/**地图部分**/
+
+/**公司信息部分***/
+
+
+.right>.left_info{float: left;margin-left: 65px;margin-top: 45px;}
+.right>.left_info>p{line-height: 35px;font-size: 16px;}
+.right>.right_info{float: right;margin-top: 45px;margin-right: 25px;margin-bottom: 45px;}
+.right>.right_info>p{line-height: 35px;font-size: 16px;}
+.right>.right_info>h3{font-family:"Regular";font-size: 18px;}
+/* .right>.right_info>p:first-child{font-size: 18px;font-weight: bold;} */
+.right>.right_info>p:first-child+p+p+p+p+p{padding-left: 70px;}
+
+/**公司信息部分***/
+
+
+
+/**表格部分**/
+.right>.message{float:right; margin-bottom: 135px;}
+.right>.message>form{margin-top: -187px;}
+.right>.message>form>.word>p{float: left;}
+.right>.message>form>.word{margin-bottom: 190px;}
+.right>.message>form>.word>textarea{float: left;resize: none;padding-left:5px;width: 280px;height: 150px;padding-top: 6px;padding-right: 5px;}
+.right>.message>form>.name{padding-top: 180px; margin-bottom: 70px;}
+.right>.message>form>.name>p{float: left; margin-left:20px;margin-right: 5px;}
+.right>.message>form>.name>input{padding-left: 5px;width: 280px;height: 30px;float: left;line-height: 30px; padding-right: 6px;line-height: 30px;}
+.right>.message>form>.tel{margin-bottom: 20px;}
+.right>.message>form>.tel>p{float: left; margin-left: 20px;margin-right: 5px;}
+.right>.message>form>.tel>input{padding-left: 5px;width: 280px;height: 30px;float: left;padding-right: 6px;line-height: 30px;}
+.right>.message>form>.code{margin-top: 20px;clear: both;position: relative;top: 20px;}
+.right>.message>form>.code>p{float: left;position: relative;bottom: -6px;left: 15px;}
+.right>.message>form>.code>input{float: left; margin-left: 20px;padding-right: 6px;}
+.right>.message>form>.code>input{width: 100px;height: 30px;margin-left: 20px; float: left;line-height: 30px; padding-right: 6px;}
+.code>.code_photo{float: right;position: relative;top: -15px;}
+
+.code_photo>a>img{float: left;margin-top: 20px;margin-left: 15px;}
+.code_photo>a{display: inline-block;font-size: 12px; color: black;}
+.code_photo>a>span{display: inline-block; margin-top: 30px;display: inline-block;margin-left: 5px;}
+.button{clear: both;outline: none;padding-top: 35px;}
+.button>.submit{text-align: center;position: relative;left: 150px;}
+.button>.submit>input{width: 60px;height: 25px;border-radius: 30px;color: white;background-color: #01a1ff; float: left;text-align: center;outline: none;border: none;cursor: pointer;padding: 0px;margin: 0px;}
+.button>.reset{text-align: center;margin-left: 35px;}
+.button>.reset>input{width: 60px;height: 25px;border-radius: 30px;color: white;background-color: #01a1ff;float: left;margin-left: 50px; text-align: center;outline: none;border: none;cursor: pointer;padding: 0px;}
+
+/**表格部分end**/
+
+
+/****navbar*****/
+.navbar>ul>.on{border-bottom:8px solid #01a1ff;}
+
+/****navbar*****/
+

@@ -1,0 +1,85 @@
+.left{float: left;}
+.left>.left_top{margin-top: 20px; color: white;margin-right: 60px;}
+.left>.left_top>.title{font-size: 18px;background-color: #01a1ff;width: 200px;height: 90px}
+.left>.left_top>.title>h3{font-size: 18px;padding-top: 20px;text-align: center;font-weight: normal;}
+.left>.left_top>.title>span{display:block;width: 90px;height: 1px;background-color: white;margin:0 auto;text-align: center;position: relative;top: 10px;}
+.left>.left_top>.title>h4{text-align: center;position: relative;top: 10px;font-weight: normal;}
+.left>.left_top>.search{width: 198px;height: 90px;text-align: center;border: 1px solid #01a1ff;}
+.left>.left_top>.search>form>input{margin-top: 20px;height: 29px;line-height: 29px; float: left;margin-left: 20px;width: 128px;border: 1px solid #01a1ff;}
+.left>.left_top>.search>form>button{background: url("../images/search_icon.jpg")no-repeat ; width: 29px;height: 31px;float: right;margin-top:20px;cursor: pointer;display: inline-block;border: 1px solid #01a1ff;position: relative;left: -9px;border-left: none; }
+.left>.left_middle>.pro_center{margin-top: 20px;background-color:#01a1ff;width: 200px;height: 90px;color: white; text-align: center;}
+.left>.left_middle>.pro_center>.title>h3{padding-top: 20px;font-size: 18px;font-weight: normal;}
+.left>.left_middle>.pro_center>.title>span{display: block;width: 90px;height: 1px;background-color: white;margin: 0 auto;position: relative;top: 10px;}
+.left>.left_middle>.pro_center>.title>h4{position: relative;top: 10px;font-weight: normal;}
+/**左导航部分**/
+.left>.left_middle>.info{width: 198px;border: 1px solid #01a1ff;}
+.left>.left_middle>.info>ul>li{width: 170px;height: 30px;background:url("../images/blue_03.jpg");border-radius: 30px;text-align: center; margin:0 auto; margin-top: 20px;}
+.left>.left_middle>.info>ul>.on{background: url("../images/yellow_03.jpg");}
+.left>.left_middle>.info>ul>.on{background-color: #acce3f;}
+/***兼容ie**/
+.left>.left_middle>.info>ul>li:first-child+li+li+li+li{margin-bottom: 30px;}
+.left>.left_middle>.info>ul>li>a{color: white; line-height: 30px;display: block;width: inherit;height: inherit;}
+.left_bottom{width: 198px;height: 180px; margin-top: 20px; margin-bottom: 20px;}
+.left_bottom>.title{height: 100px;background-color: #01a1ff;color: white;text-align: center;}
+.left_bottom>.title>h3{font-size: 18px;padding-top: 20px;font-weight: normal;}
+.left_bottom>.title>span{display: block;width: 90px;height: 1px;background-color: white;margin: 0 auto;position: relative;top: 10px;}
+.left_bottom>.title>h4{position: relative;top: 10px;font-weight: normal;}
+/***留言板**/
+.left_bottom{margin-bottom: 100px;}
+.left_bottom>.myform{width: 196px;height: 90px;text-align: center;border: 1px solid #01a1ff;margin-bottom: 75px;position: relative;}
+.left_bottom>.myform>form>textarea{width: 158px;height: 55px; margin: 3px;margin:13px; border: 1px solid #01a1ff;padding-left: 5px;padding-right: 5px;padding-top: 5px;font-size: 14px;}
+.left_bottom>.myform>form>button{cursor: pointer; position: absolute;background: url("../images/bottom_icon.jpg") no-repeat;width: 25px;height: 22px;top: 47px;left: 158px;}
+/***留言板end**/
+/**左导航部分end**/
+/**右边的部分**/
+.right{float: left;}
+.right>.title{width: 920px;border-bottom: 1px solid #c5c5c5;border-left: 2px solid #01a1ff;margin-top: 20px;clear: both;height: 45px;}
+.right>.title>h3{font-size: 18px;padding-left: 10px;margin-top: 8px;padding-bottom: 15px;float: left;}
+.right>.title>span{float: left;}
+/**小文字的部分**/
+.right>.title>span{display: inline-block; font-size: 12px;color: gray;margin-top: 15px;margin-left: 5px;}
+/**小文字的部分**/
+.right>.title>.location{float: right; margin-top: 12px;}
+.right>.title>.location>span{display: inline-block;color: #b5b5b5;font-size: 12px;}
+.right>.title>.location>span:hover{color:#bed874; }
+.right>.title>.location>.on{color: #bed874;}
+/**产品图片**/
+.right>.content>.left{float: left;position: relative;right: 75px;}
+.right>.content>.left>.large{margin-top: 20px; margin-bottom: none;}
+.right>.content>.left>.large>img{width: 340px;height: 250px;border: 1px solid #bbbbbb;}
+.right>.content>.left>.mini>ul{width: 300px;height: 55px;}
+.right>.content>.left>.mini>ul>li{float: left;width: 75px;height: 55px; line-height: 55px;border: 1px solid #bbbbbb;cursor: pointer;margin-right: 1px;}
+/*.right>.content>.left>.mini>ul>li:first-child+li{border-left: none;}*/
+/*.right>.content>.left>.mini>ul>li:first-child+li+li{border-left: none;}*/
+.right>.content>.left>.mini>ul>li>a>img{display: inline-block;width: 73px;height: 56px;}
+.right>.content>.left>.mini>ul>li:hover{border: 1px solid #acce3f;}
+.right>.content>.left>.mini>ul>.on{border: 1px solid #acce3f;}
+
+.right>.content>.right{margin-left: 20px;width: 465px;}
+.right>.content>.right>.top{float: left;width:500px;height: 70px;border-bottom: 1px solid #c5c5c5;margin-top: -5px;}
+.right>.content>.right>.top>h1{font-size: 18px; margin-top: 20px;font-weight: normal;}
+.right>.content>.right>.top>h2{font-size: 12px;color: #c4dc83;padding-top: 3px;}
+
+.right>.content>.right>.middle>h1{font-size: 18px;color: #c4dc83;padding-top: 76px;font-weight: normal;}
+.right>.content>.right>.middle>p{font-size: 16px;color: #9f9f9f;line-height: 25px;}
+
+.right>.content>.right>.foot{padding-top: 20px;}
+.right>.content>.right>.foot>h1{font-size: 18px;color: #c4dc83;font-weight: normal;}
+.right>.content>.right>.foot>p{font-size: 16px;color: #9f9f9f;line-height: 25px;}
+
+
+
+.content>.show{padding-top: 120px;}
+.content>.show>.top{width: 900px;border-bottom: 1px solid #c5c5c5;}
+.content>.show>.top>.title{width: 105px;height: 40px;background-color: #01a1ff;color: white;text-align: center;line-height: 40px;}
+.content>.show>.top>.title>a{color: white;}
+.content>.show>.product_show{margin-top: 20px;}
+.content>.show>.product_show>ul{width: 900px;height: 200px;}
+.content>.show>.product_show>ul>li{float: left; margin-right: 10px;border: 1px solid #c5c5c5;}
+.content>.show>.product_show>ul>li>p{text-align: center; background-color: gray;color: white;height: 30px;line-height: 30px;}
+.content>.show>.product_show>ul>li>p>a{color: white;font-size: 12px;display:block;width: inherit;height: inherit;}
+.content>.show>.product_show{margin-bottom: 100px;}
+.right>.product_show>ul{width: 1000px;height: 220px;}
+.right>.product_show>ul>a{color: white;}
+
+.right>.product_show>ul>a>li>p{text-align: center;background-color: gray;height: 30px;line-height: 30px;}

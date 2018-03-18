@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js" ></script>
+		<style>
+			ul{width:750px;}
+			li{width:30%;float: left;position: relative;height:220px;list-style-type: none;}
+			ul>li>div{display: none;}
+			.div{position: absolute;top:0;bottom: 0;background: gray;width: 100%;opacity: 0.5;text-align: center;line-height:220px;display: block;}
+		</style>
+		<script>
+			
+			$(function(){
+				$("ul>li").mouseover(function(){
+					$(this).find("div").addClass("div");
+				})
+				$("ul>li").mouseout(function(){
+					$(this).find("div").removeClass("div");
+				})
+			})
+			
+		</script>
+	</head>
+	<body>
+		<ul>
+			
+			<li>
+				<img src="images/pro_02.jpg"/>
+				<div>
+					AAAAAAAA
+				</div>
+			</li>
+			<li>
+				<img src="images/pro_03.jpg" />
+				<div>
+					AAAAAAAA
+				</div>
+			</li>
+			<li>
+				<img src="images/pro_04.jpg"/>
+				<div>
+					AAAAAAAA
+				</div>
+			</li>
+		</ul>
+		
+	</body>
+</html>
